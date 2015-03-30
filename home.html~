@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+
+    <title>Data Visualization App</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/jumbotron-narrow.css" rel="stylesheet">
+
+   
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="/about">About</a></li>
+            <li role="presentation"><a href="http://getbootstrap.com/examples/jumbotron-narrow/#">Source Code</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Data Visualization</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1>Data Visualization</h1>
+        <p class="lead">Data visualization app using GAE, Python & D3.js.</p>
+        <p><a class="btn btn-lg btn-success" href="/chart" role="button">Click here</a></p>
+      </div>
+
+     
+
+      <footer class="footer">
+        <p>© UCE 2015</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+
+
+</body></html>
