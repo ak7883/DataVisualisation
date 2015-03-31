@@ -1,5 +1,0 @@
-function message()
-{
-a=document.getElementById("txtSearchKeyword");
-alert(a.value);
-}
