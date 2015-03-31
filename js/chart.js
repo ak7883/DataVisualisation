@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-InitChart();
+InitChart();  //initialising the axis via default data (declaring function)
 	$("#btnSearch").click(function(){
 		var a = document.getElementById("txtSearchKeyword");
 		$.ajax({
@@ -105,6 +105,14 @@ var transition = vis.transition().duration(2000);
                 .transition().duration(1000)
                 .remove();
 
+$('svg circle').tipsy({
+    gravity: 'w',
+    title: function() {
+        var d = this.__data__;
+ 
+        return d.word_count + ' occurrences found in ' + d.corpus;
+    }
+});
  
 }
 
